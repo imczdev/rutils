@@ -1,5 +1,5 @@
 [package]
-name = "dt"
+name = "rutils"
 version = "0.1.0"
 edition = "2021"
 
@@ -7,6 +7,11 @@ edition = "2021"
 name = "tf"
 path = "src/tf.rs"
 
+[[bin]]
+name = "now"
+path = "src/now.rs"
+
 
 [dependencies]
 chrono = "0.4.39"
+clap = "4.6.1"

@@ -1,3 +1,5 @@
+mod now;
+
 use chrono::{DateTime, NaiveDateTime, Local};
 use std::env;
 
